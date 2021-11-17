@@ -9,7 +9,7 @@ function Navbar() {
   return (
     <>
       <div className="nav">
-        <img src={ToggleLogo} alt="Grape Logo" />
+        <img src={ToggleLogo} alt="Grape Logo" onClick={event =>  window.location.href='/'} />
         <GiHamburgerMenu onClick={() => setShowNav(!showNav)} />
       </div>
       <div className="toggle_nav">
